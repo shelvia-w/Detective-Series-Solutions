@@ -9,9 +9,7 @@
 **✅ Answer:**
 When the linear score \( z \) is very high, the sigmoid function:
 
-\[
-\sigma(z) = \frac{1}{1 + e^{-z}}
-\]
+$\sigma(z) = \frac{1}{1 + e^{-z}}$
 
 outputs a value close to **1**. This means the model is highly confident the input belongs to class **1**.  
 Similarly, a very low \( z \) results in a probability close to **0**. This behavior is useful because it bounds probabilities between 0 and 1 and provides a smooth confidence curve.
