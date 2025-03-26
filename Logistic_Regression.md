@@ -33,9 +33,7 @@ Two ways to reduce false positives (accusing innocent people):
 **✅ Answer:**
 We prefer **log loss** (binary cross-entropy):
 
-\[
-\text{LogLoss} = -\left[ y \cdot \log(p) + (1 - y) \cdot \log(1 - p) \right]
-\]
+$\text{LogLoss} = -\left[ y \cdot \log(p) + (1 - y) \cdot \log(1 - p) \right]$
 
 Because:
 
@@ -45,9 +43,7 @@ Because:
 
 If we used MSE:
 
-\[
-\text{MSE} = (y - p)^2
-\]
+$\text{MSE} = (y - p)^2$
 
 - The gradients would be small near 0 or 1 → **slow learning**
 - It doesn't penalize confident errors as strongly
