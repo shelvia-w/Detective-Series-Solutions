@@ -18,7 +18,7 @@ Using **k = 3** allows you to see a **pattern** across multiple similar people. 
 **✅ Answer:**
 
 No, because the majority of the 100 neighbors would likely be people who are not similar to Casey. This means the "majority vote" might favor the dominant group (coffee shop lovers), not the bookworms.  
-In cases of **imbalanced populations**, using a smaller `k` helps prevent Casey from being outvoted by unrelated groups.
+In cases of **imbalanced populations**, using a smaller k helps prevent Casey from being outvoted by unrelated groups.
 
 ---
 
