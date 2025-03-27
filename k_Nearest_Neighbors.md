@@ -18,7 +18,7 @@ Using **k = 5** allows you to see a **pattern** across multiple similar people. 
 
 **✅ Answer:**
 
-No, because the majority of the 100 neighbors would likely be people who are not similar to Casey. This means the "majority vote" might favor the dominant group (Fitness CLub), not the Book Club.  
+No, because the majority of the 100 neighbors would likely be people who are not similar to Casey. This means the "majority vote" might favor the dominant group (Fitness CLub for example), not the Book Club.  
 In cases of **imbalanced populations**, using a smaller k helps prevent Casey from being outvoted by unrelated groups.
 
 ---
