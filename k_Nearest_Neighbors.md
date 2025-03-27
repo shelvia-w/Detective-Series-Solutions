@@ -3,7 +3,7 @@
 ---
 
 ## ❓ Question 1:
-**Suppose you had chosen k = 1 instead of k = 5, and the nearest person was Mira. Would relying on just one neighbor always be the best choice for finding Casey's community? Why might using k = 3 give a better recommendation?**
+**Suppose you had chosen k = 1 instead of k = 5, and the nearest person was Mira. Would relying on just one neighbor always be the best choice for finding Casey's community? Why might using k = 5 give a better recommendation?**
 
 **✅ Answer:**
 
