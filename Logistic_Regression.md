@@ -7,6 +7,7 @@
 **If a suspect has a very high “z” score from the linear combination, what happens to their probability after applying the sigmoid function? And why is that useful?**
 
 **✅ Answer:**
+
 When the linear score \( z \) is very high, the sigmoid function:
 
 $\sigma(z) = \frac{1}{1 + e^{-z}}$
@@ -20,6 +21,7 @@ Similarly, a very low \( z \) results in a probability close to **0**. This beha
 **Suppose the model gives a suspect a probability of 0.8, and you use 0.5 as your threshold. But your boss says we need to be more cautious and reduce false positives. What can you do?**
 
 **✅ Answer:**
+
 Two ways to reduce false positives (accusing innocent people):
 
 1. **Increase the decision threshold** (e.g., from 0.5 to 0.7 or 0.8), so only higher-confidence predictions are classified as “guilty.”
@@ -31,6 +33,7 @@ Two ways to reduce false positives (accusing innocent people):
 **Why do we prefer log loss over mean squared error (MSE) in logistic regression? What would go wrong if we used MSE instead?**
 
 **✅ Answer:**
+
 We prefer **log loss** (binary cross-entropy):
 
 $\text{LogLoss} = -\left[ y \cdot \log(p) + (1 - y) \cdot \log(1 - p) \right]$
