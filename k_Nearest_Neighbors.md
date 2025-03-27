@@ -8,6 +8,7 @@
 **✅ Answer:**
 
 Using **k = 1** means the recommendation depends entirely on a single person - Mira, in this case. While Mira may be a good match, relying on just one person can be risky because it doesn't capture the broader social context. For instance, even though Mira shares interests like reading and jogging, she might mostly hang out with the Fitness Club, which is full of extroverted people who love parties and loud music - none of which match Casey’s preferences.
+
 Using **k = 5** allows you to see a **pattern** across multiple similar people. If three (Mira, Theo, and Aria) out of five people that share interests with Casey are attending a Book Club, it's a stronger signal that Casey would fit in there.
 
 ---
