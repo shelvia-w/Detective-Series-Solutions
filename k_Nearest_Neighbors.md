@@ -14,7 +14,7 @@ Using **k = 5** allows you to see a **pattern** across multiple similar people. 
 ---
 
 ## ❓ Question 2:
-**Suppose the town has 1,000 people, but only 10 of them are bookworms like Casey, while the rest are mostly into coffee shop hopping and socializing. If you had chosen `k = 100`, would Casey still be matched with similar people? Why or why not?**
+**Suppose the town has 1,000 people, but only 10 of them are bookworms like Casey, while the rest are mostly into coffee shop hopping and socializing. If you had chosen k = 100, would Casey still be matched with similar people? Why or why not?**
 
 **✅ Answer:**
 
