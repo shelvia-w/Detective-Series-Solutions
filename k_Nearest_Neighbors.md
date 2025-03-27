@@ -27,7 +27,7 @@ In cases of **imbalanced populations**, using a smaller `k` helps prevent Casey 
 
 **✅ Answer:**
 
-Jogging distance could **dominate** the distance calculation because it's a continuous numerical feature, while others are binary. This makes the model overly sensitive to jogging and less sensitive to shared interests like reading or liking cats.  
-To fix this, you can **normalize** or **standardize** all features so that each one contributes fairly to the distance calculation, ensuring no single feature unfairly skews the results.
+Jogging distance could **dominate** the distance calculation because it's a continuous numerical feature, while others are binary (no - 0 or yes - 1). This makes the model overly sensitive to jogging and less sensitive to shared interests like reading or liking cats. 
+To fix this, you can **normalize** or **standardize** all features (ensures that it lies between 0 and 1) so that each one contributes fairly to the distance calculation, ensuring no single feature unfairly skews the results.
 
 ---
